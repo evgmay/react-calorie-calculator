@@ -33,8 +33,7 @@ export default function About() {
 
                                     </Card.Text>
                                     <div className="d-grid gap-2">
-                                        <Button variant="primary" href="https://github.com/evgmay" target="_blank"
-                                            rel="noreferrer">Github</Button>
+                                        <Button variant="primary" href="https://t.me/evgmay" target="_blank" rel="noreferrer">Telegram</Button>
                                     </div>
                                 </Card.Body>
                             </Card>
@@ -48,8 +47,7 @@ export default function About() {
 
                                     </Card.Text>
                                     <div className="d-grid gap-2">
-                                        <Button variant="primary" href="https://vk.com/id506370702" target="_blank"
-                                            rel="noreferrer">VK page</Button>
+                                        <Button variant="primary" href="https://vk.com/id506370702" target="_blank" rel="noreferrer">VK page</Button>
                                     </div>
                                 </Card.Body>
                             </Card>
@@ -63,8 +61,7 @@ export default function About() {
 
                                     </Card.Text>
                                     <div className="d-grid gap-2">
-                                        <Button variant="primary" href="https://vk.com/osergeyk" target="_blank"
-                                            rel="noreferrer">VK page</Button>
+                                        <Button variant="primary" href="https://vk.com/osergeyk" target="_blank" rel="noreferrer">VK page</Button>
                                     </div>
                                 </Card.Body>
                             </Card>

@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
                     <div className="col-md-6 mb-md-0 mb-3">
-                        <h5 className="text-uppercase">Follow us on Social Media</h5>
-                        <p>MADI © 2021<br />Cathedra: ASC<br />2bASC1</p>
+                        <h5 className="text-uppercase">created using react and bootstrap</h5>
+                        <p>MADI © 2021<br />Departament: ACS<br />2bACS1</p>
                         <a href="https://en.reactjs.org/" className="text-decoration-none m-3 text-info"
                             target="_blank" rel="noreferrer"><IoLogoReact size="40" /> React</a>
                         <a href="https://nodejs.org/en/" className="text-decoration-none m-3 text-success"
@@ -42,7 +42,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="text-center py-3">© 2020 Copyright. All rights reserved.</div>
+            <div className="text-center py-3">© 2021 Copyright. All rights reserved.</div>
         </div>
     );
 }

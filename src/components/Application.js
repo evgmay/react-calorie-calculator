@@ -21,7 +21,7 @@ export default class Application extends Component {
                 </div>
                 <Container>
                     <Row className="justify-content-between">
-                        <Col className="bg-body rounded py-3">
+                        <Col lg md className="py-3 bg-body">
                             <Row className="mb-3">
                                 <h4 className="text-muted">Gender</h4>
                                 <ButtonGroup>
@@ -148,12 +148,15 @@ export default class Application extends Component {
                             </Row>
                         </Col>
 
-                        <Col className="bg-body rounded py-3 text-center">
+                        <Col lg md className="pt-5 bg-body">
                             <h3>How many calories do you need per day:</h3>
+                            <br /><br />
                             <h4>To don't change weight:{Math.round((10 * this.state.weight + 6.25 * this.state.height -
                                 5 * this.state.age + this.state.sex) * this.state.level)}</h4>
+                            <br /><br />
                             <h4>To lose weight: {Math.round(((10 * this.state.weight + 6.25 * this.state.height -
                                 5 * this.state.age + this.state.sex) * this.state.level) * 0.8)}</h4>
+                            <br /><br />
                             <h4>To lose weight
                                 quickly: {Math.round(((10 * this.state.weight + 6.25 * this.state.height -
                                     5 * this.state.age + this.state.sex) * this.state.level) * 0.6)}</h4>
